@@ -1,7 +1,8 @@
 # JinGleya Sans webfont
 
-WOFF2 build and specimen for **JinGleya Sans**, pairing Alegreya Sans Regular
-Latin with Tsanger JinKai 04 W03 Chinese outlines at their original 100% size.
+WOFF2 builds and specimen for **JinGleya Sans**, pairing Alegreya Sans Latin
+with Tsanger JinKai 04 Chinese outlines at their original 100% size in Light,
+Regular, and Bold weights.
 
 [View the specimen](https://hanlhe.github.io/JinGleya-Sans-Webfonts/).
 
@@ -14,7 +15,7 @@ Latin with Tsanger JinKai 04 W03 Chinese outlines at their original 100% size.
 ```css
 body {
   font-family: "JinGleya Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 400; /* Light 300, Regular 400, Bold 700 */
 }
 ```
 
