@@ -36,7 +36,7 @@ jobs:
       - name: Stage webfonts and preview
         run: |
           mkdir -p _site
-          cp JinGleyaSans.css JinGleyaSans-Light.woff2 JinGleyaSans-Regular.woff2 JinGleyaSans-Bold.woff2 index.html _site/
+          cp JinGleyaSans.css JinGleyaSans-*.woff2 index.html _site/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
